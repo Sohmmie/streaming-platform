@@ -38,12 +38,14 @@ img .logo {
 }
 
 .section-a p {
-    font-size: 20px;
+    font-size: 25px;
+    line-height: 1.3em;
 }
 
 .update {
     font-size: 15px;
     color: whitesmoke;
+    font-weight: 1000;
 }
 
 .email {
@@ -54,8 +56,29 @@ img .logo {
     background-color: #13203d;
     color: white;
     border: 0px;
-    width: 255px;
+    width: 250px;
     
+}
+
+button {
+    background-color:  #13203d ;
+    color: whitesmoke;
+}
+
+.subscribe-btn {
+    padding: 10px 12px;
+    border-radius: 8px;
+    background-color: #13203d;
+    border: none;
+    width: 80px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    text-decoration: none;
+    color: white;
+    background-color: darkblue;
 }
 
 /*=====navbar section====*/
