@@ -39,7 +39,11 @@ img .logo {
 
 .section-a p {
     font-size: 20px;
+}
 
+.update {
+    font-size: 15px;
+    color: whitesmoke;
 }
 
 .email {
@@ -148,17 +152,27 @@ li:hover {
     }
 }
 
+.about {
+    margin-top: 10px;
+    color: whitesmoke;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+} 
+    
+
+
 .image {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 3px black dotted;
     margin: 50px;
 }
 
 .section-b {
     display: flex;
+    border-top:3px black dotted;
 }
 
 .section-b div {
@@ -166,9 +180,10 @@ li:hover {
     
 }
 
-.section-b .box-1, .section-b .box-2 {
-    p
+.section-b .box-1, .section-b .box-2, .section-b .box-3 {
+    color: whitesmoke;
 }
+
 
 .section-b img {
     width: 200px
