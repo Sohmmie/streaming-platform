@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/23608cca9e.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+</head>
+<body>
+        <div class="imgcontainer">
+            <img src="/img/IMG_E0736.JPG" style="height: 200px;"  class="profile-img">
+        </div>
+        <div>
+            <p> Please sign in to continue </p>
+        </div>
+        <form action="/action_page.php" class="inline">
+        <div class="input-icons">
+            <i class="fa-regular fa-user icon"></i>
+             <input type="text" placeholder="Full Name" name="fullname" required>
+            </div> 
+            <div class="input-icons">
+                <i class="fa-solid fa-lock icon"></i>
+                <input type="password" placeholder="Password" name="password" required> 
+               </div>
+               <label> <input type="checkbox" checked name="remember"> Remember Me </label>
+
+               <p> Forgot <a href="\"> Password </a></p>
+   
+            <button type="submit" class="sign-btn"> Login </button>
+                  
+    </form>
+</body>
+</html>
