@@ -19,6 +19,10 @@ img .logo {
    
 }
 
+a {
+    text-decoration: none;
+}
+
 .section-a {
     padding: 20px;
     line-height: 3em;
@@ -89,6 +93,11 @@ button {
     margin: 2% 8%;
     align-items: center;
     cursor: pointer;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
 }
 
 li:hover {
@@ -162,6 +171,13 @@ li:hover {
     .nav-active {
         transform: translateX(0%);
     }
+}
+
+@media (max-width:600px) {
+   .intro {
+      height: 500px;
+      width: 200px;
+   } 
 }
 
 @keyframes navLinksfade {
